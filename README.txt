@@ -5,6 +5,13 @@ This script aim to automatically load the photos and have only the one with high
 
 this script has four part, first to delete the destination folder useful for schduled script,second part to copy the files from spotlight folder, third to delete the unwanted photos and files last part is to rename it to keep it user friendly, you will need to change the username in "src_dir" and "dest_dir" into your own username (mine is Soran) make sure you check the folders, just in case if your windows version is different and can't find spotlight photos, you may search the web for the proper location of spotlight folder depending on your version as per my windows version 10, this location where i found the photos also you may need to change the destination folder to one you wish, i created a folder inside picture with the name wall-papers.
 
+it is essential to change the NAME in src_dir & dest_dir otherwise the script will fail and generate error.
+
+for this script you need python 3+ and to ensure to install pillow PIL library, to do so after successfully installing python 3 ensure the 
+path is updated properly and use followign command from command line to install PIL as described in http://pillow.readthedocs.io/en/3.4.x/installation.html
+
+from command line
+C:\pip install Pillow
 
  ----------------------------------------------------------------
                               Disclaimer
